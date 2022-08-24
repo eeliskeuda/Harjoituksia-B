@@ -1,0 +1,21 @@
+using System;
+
+namespace Harjoituksia_B1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Tulostetaan lasku
+            Console.WriteLine("x = y + 3");
+            // Pyydetään käyttäjältä y:n arvo
+            Console.Write("y:n arvo: ");
+            // Tallennetaan käyttäjän syöttämä arvo muuttujaan y
+            int y = int.Parse(Console.ReadLine());
+            // Lasketaan lasku ja tallennetaan tulos muuttujaan x
+            int x = y + 3;
+            // Tulostetaan laskun tulos
+            Console.WriteLine("x = " + x);
+        }
+    }
+}
