@@ -1,0 +1,22 @@
+using System;
+
+namespace Harjoituksia_B7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Tulostetaan lasku
+            Console.WriteLine("x -= y");
+            // Pyydetään käyttäjältä x:n ja y:n arvot ja tallennetaan ne muuttujiin x ja y
+            Console.Write("x:n arvo: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("y:n arvo ");
+            int y = int.Parse(Console.ReadLine());
+            // Lasketaan lasku ja tallennetaan tulos muuttujaan x
+            x -= y;
+            // Tulostetaan laskun tulos
+            Console.WriteLine("x = " + x);
+        }
+    }
+}
